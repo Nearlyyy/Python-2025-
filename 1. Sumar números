@@ -1,0 +1,15 @@
+"""
+Programa 1: 
+
+Crea un programa de Python que solicite al usuario ingresar dos números. 
+Debe realizar la suma de esos dos números y mostrar el resultado de la suma en pantalla.
+"""
+
+# Se define una funcion que devuelve la suma de los 2 números solicitados
+def sumar(n1, n2):
+    return n1 + n2
+
+n1 = int(input("Ingrese un número: "))
+n2= int(input("Ingrese otro número: "))
+
+print(f"La suma de {n1} y {n2} es {sumar(n1, n2)}")
