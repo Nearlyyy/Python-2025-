@@ -1,0 +1,13 @@
+"""
+Programa 8: 
+
+Escriba un programa en Python que determine si una cadena es palindromo
+"""
+
+def es_palindromo(cadena):
+    cadenaInvertida = cadena[::-1]  # ::-1, conocido también como slicing, es una forma para invertir una cadena
+    return cadena == cadenaInvertida
+
+cadena = input("Ingrese una cadena: ")
+
+print(f"¿'{cadena}' es palindromo?: {"Si" if es_palindromo(cadena) else "No"}")
