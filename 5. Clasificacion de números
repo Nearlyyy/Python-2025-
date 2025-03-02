@@ -1,0 +1,15 @@
+"""
+Programa 5: 
+
+Escriba un programa en Python que pida un número y me diga si es 
+positivo, negativo o cero
+"""
+
+numero = int(input("Ingrese un número: "))
+
+if numero < 0:
+    print(f"{numero} es negativo")
+elif numero > 0:
+    print(f"{numero} es positivo")
+else:
+    print("El número ingresado es cero")
