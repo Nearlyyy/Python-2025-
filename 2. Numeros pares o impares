@@ -1,0 +1,13 @@
+"""
+Programa 2: 
+
+Escriba un programa en Python que pida un número y muestre en pantalla si dicho
+número es par o impar
+"""
+
+n = int(input("Ingrese un número: "))
+
+if n % 2 == 0:
+    print(f"{n} es par")
+else:
+    print(f"{n} es impar")
