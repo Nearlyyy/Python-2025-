@@ -1,0 +1,12 @@
+"""
+Programa 3: 
+
+Escriba un programa en Python que calcule el area de un triangulo rectangulo
+"""
+
+base = float(input("Ingrese la base del triangulo: "))
+altura = float(input("Ingrese la altura del triangulo: "))
+
+area = (base * altura) / 2
+
+print(f"El area del triangulo es {area:.2f} m^2") # La expresion 'area:.2f' redondea a 2 decimales
