@@ -1,0 +1,9 @@
+"""
+Programa 0: 
+
+Escriba un programa en Python que pida un nombre y te salude
+"""
+
+nombre = input("Ingrese su nombre: ")
+
+print(f"Hola {nombre}, buenas tardes")
