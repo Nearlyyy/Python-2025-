@@ -1,0 +1,17 @@
+"""
+Programa 6: 
+
+Escriba un programa en Python que me pida una cadena y me diga cuantas vocales existen dentro
+"""
+
+def contar_vocales(cadena):
+    contador = 0
+    for caracter in cadena:
+        if caracter == "a" or caracter == "e" or caracter == "i" or caracter == "o" or caracter == "u":
+            contador += 1
+    return contador
+
+
+cadena = input("Ingrese una cadena de texto: ").lower()
+
+print(f"En {cadena} existen {contar_vocales(cadena)} vocales")
