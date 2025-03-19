@@ -1,0 +1,15 @@
+"""
+Programa 2 - Python 
+
+Escribir un programa que tome como entrada un número entero e indique qué cantidad hay
+que sumarle para que el resultado sea multiplo de 7
+"""
+
+numero = int(input("Ingrese un número: "))
+
+resto = numero % 7
+
+if resto == 0:
+    print(f"{numero} es multiplo de 7")
+else:
+    print(f"Se necesita sumarle {resto} a {numero} para que sea multiplo de 7")
