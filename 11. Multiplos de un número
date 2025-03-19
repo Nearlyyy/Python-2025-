@@ -1,0 +1,17 @@
+"""
+Programa 3 - Python 
+
+Modificar el programa anterior, indicando 2 números n y m y que nos indique que cantidad
+hay que sumarle a n para que sea multiplo de m
+"""
+
+n = int(input("Ingrese un número 'n': "))
+m = int(input("Ingrese un número 'm': "))
+
+resto = n % m
+
+if resto == 0:
+    print(f"{n} ya es múltiplo de {m}")
+else:
+    cantidad_a_sumar = m - resto
+    print(f"A {n} hay que sumarle {cantidad_a_sumar} para que sea múltiplo de {m}")
