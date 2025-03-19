@@ -1,0 +1,16 @@
+"""
+Programa 1 - Python 
+
+Un economista nos ha encargado un programa para realizar cálculos con el IVA.
+La aplicación debe solicitar la base imponible y el IVA a aplicar. Se debe mostrar el importe
+correspondiente y el total
+"""
+
+base_imponible = float(input("Ingrese el monto inicial: "))
+IVA = float(input("Ingrese el IVA a aplicar: "))
+
+total = base_imponible + (base_imponible * (IVA / 100))
+
+print(f"Base imponible inicial: ${base_imponible:.2f}")
+print(f"IVA {IVA}%: ${base_imponible * (IVA / 100):.2f}")
+print(f"Total: ${total:.2f}")
